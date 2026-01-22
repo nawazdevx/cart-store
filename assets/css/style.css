@@ -48,6 +48,8 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: hsl(0, 0%, 65%) var(--white);
 }
 
 a {
@@ -112,23 +114,23 @@ body {
   background: var(--white);
 }
 
-body::-webkit-scrollbar {
-  width: 15px;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: var(--white);
   border-left: 1px solid var(--porcelain);
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: hsl(0, 0%, 80%);
   border: 3px solid var(--white);
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: hsl(0, 0%, 70%);
 }
 
